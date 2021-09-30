@@ -54,5 +54,11 @@ def call_Anuja():
     else:
        default = talk('I am sorry, I did not understand')
        print(default)
+    else:
+       default = talk('I am not in mood, try later or bring ice crean for me!')
+       print(default)
+    else:
+       default = talk('Not now')
+       print(default)
         
 call_Anuja()
